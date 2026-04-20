@@ -1,4 +1,4 @@
-# Implementacion de splash screen 
+# Implementacion de splash screen (se intento)
 
 ### 1. Instalar el Capacitor de Splash Screen
 
@@ -68,20 +68,17 @@ Y se vuelve a ejecutar: npx @capacitor/assets generate
 
 ### Configurar AndroidManifest.xml
 
-<img width="802" height="500" alt="image" src="https://github.com/user-attachments/assets/a978f987-6bdf-436c-8a99-4174e40209b8" />
+<img width="709" height="445" alt="image" src="https://github.com/user-attachments/assets/2b236694-4161-4a3e-af0d-68833079f16a" />
 
 Este AndroidManifest.xml define el ícono de la app y el nombre que se muestra. 
 - Aplica un tema general que incluye cómo se ve el splash screen por defecto.
-- Usa un tema especial (NoActionBarLaunch) para mostrar el Splash Screen en pantalla completa.
 - Mantiene la orientación y configuración de pantalla sin reiniciarse al girar el teléfono.
 - Permite que el sistema Android la reconozca como “launcher” para abrir la app desde el icono.
 
 ### Funcionamiento de la aplicación
 Al crear la APK con Android Studio el resultado que dio fue el siguiente:
+<img width="1220" height="2712" alt="image" src="https://github.com/user-attachments/assets/b7933090-8158-4214-a4ef-8fa56637c346" />
+<img width="610" height="1356" alt="image" src="https://github.com/user-attachments/assets/809b0728-c5e8-4370-92fa-4a347bf2eb40" />
+<img width="610" height="1356" alt="image" src="https://github.com/user-attachments/assets/8bd71ef6-27cc-44f5-835e-bb7eb7a977b2" />
 
-- En los widgets, la aplicación se carga con el ícono respectivo.
-![Imagen de WhatsApp 2025-10-20 a las 20 25 48_07ec16db](https://github.com/user-attachments/assets/ca4187a3-2357-4b4d-9e97-972053de1df4)
 
-- Al abrir la app, se muestra un splash que es el fondo negro con el ícono personalizado.
-![Imagen de WhatsApp 2025-10-20 a las 20 25 47_63e790d3](https://github.com/user-attachments/assets/64a10f7d-526a-48ee-8c22-cec9bcc13110)
-![Imagen de WhatsApp 2025-10-20 a las 20 25 47_779a0c97](https://github.com/user-attachments/assets/a51a5395-f68b-4eb4-8499-635c0bfd227d)
